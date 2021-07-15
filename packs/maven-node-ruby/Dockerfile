@@ -1,4 +1,4 @@
-FROM node:10.13
+FROM node:10.24.0
 
 # Node stuff required for Cypress
 RUN apt-get update && \
